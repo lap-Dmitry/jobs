@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,300&display=swap" rel="stylesheet">
+    <title>Jobs</title>
+</head>
+
+<body>
+    <header class="up">
+        <div class="up_block">
+            <div class="logo">
+                <img src="./images/logo_small 1.png" alt="logo">
+            </div>
+        </div>
+        <div class="slogan">
+            <h1>Требуются специалисты по уборке</h1>
+            <p class="up_text">Надежный доход и удобный график работы
+            </p>
+        </div>
+        <button class="btn">
+            <a href="#openModal"><p class="btn_text">Записаться</p></a>
+        </button>
+    </header>
+    <div id="openModal" class="popup-overlay">
+        <div class="popup">
+            <div class="popup_content">
+                <a href="#close" title="Закрыть" class="close">X</a>
+                <div class="form_group form_1">
+                    <div class="form_title">Ф.И.О.</div>
+                    <input class="input_1" type="text">
+                </div>
+                <div class="form_group form_2">
+                    <div class="form_title">Дата рождения</div>
+                    <input class="input_2" type="text" placeholder="22.03.1975">
+                </div>
+                <div class="form_group form_3">
+                    <div class="form_title">Телефон</div>
+                    <input class="input_3" type="tel" placeholder="+ 7">
+                </div>
+                <div class="form_group form_4">
+                    <div class="form_title">Гражданство</div>
+                    <input class="input_4" type="text" placeholder="Выберите из списка">
+                    <div class="form_img">
+                        <img class="polygon" src="svg/polygon.svg" alt="polygon">
+                    </div>
+                </div>
+                <div class="popup_group">
+                    <a href="#resultOn">
+                        <button class="popup_btn btn_2">
+                        <p class="btn_text text_1">Записаться на собеседование</p>
+                    </button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="resultOn" class="popup_result">
+        <div class="popup_info">
+            <div class="result">
+                <a href="#close" title="Закрыть" class="close close_btn">X</a>
+                <p class="popup_title">Вы успешно записаны!
+
+                    <span class="popup_text">Сейчас вам перезвонят для уточнения деталей.</span>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="services">
+        <div class="services_title">
+            <h2>
+                Мы предлагаем
+            </h2>
+        </div>
+        <div class="services_content">
+            <div class="service service_1">
+                <div class="img_block block_1">
+                    <img class="img_1" src="images/Hand-money 1.png" alt="Hand-money">
+                </div>
+                <h3 class="service_title">Выплаты вовремя</h3>
+                <p class="service_text">Выплата на банковскую карту. 2 раза в месяц.</p>
+            </div>
+            <div class="service service_2">
+                <div class="img_block block_2">
+                    <img class="img_2" src="svg/calendar.svg" alt="Calendar">
+                </div>
+                <h3 class="service_title">Удобное расписание</h3>
+                <p class="service_text">Большой выбор графиков. Можно составить индивидуальный.</p>
+            </div>
+            <div class="service service_3">
+                <div class="img_block block_3">
+                    <img class="img_3" src="svg/order.svg" alt="Order">
+                </div>
+                <h3 class="service_title">Много заказов</h3>
+                <p class="service_text">Скажите свои рабочие дни, а мы обеспечим заказами.</p>
+            </div>
+            <div class="service service_4">
+                <div class="img_block block_4">
+                    <img class="img_4" src="svg/backpack.svg" alt="Backpack">
+                </div>
+                <h3 class="service_title">Выдаем инвентарь</h3>
+                <p class="service_text">Все необходимое для уборки предоставляет компания. </p>
+            </div>
+        </div>
+    </div>
+    <div class="commands">
+        <h2>
+            Как стать частью команды?
+        </h2>
+        <div class="command_content">
+            <div class="command command_1">
+                <div class="circle circle_1">
+                    <p class="number">1</p>
+                </div>
+                <h3>Заполните анкету
+                </h3>
+                <div class="command_text">Расскажите немного про себя. Нам важно познакомиться.</div>
+            </div>
+            <div class="command command_2">
+                <div class="circle circle_2">
+                    <p class="number">2</p>
+                </div>
+                <h3>Оплачиваемая стажировка
+                </h3>
+                <div class="command_text">Выйдете на реальный заказа с опытным клинером. Стажировка полностью оплачивается
+                </div>
+            </div>
+            <div class="command command_3">
+                <div class="circle circle_3">
+                    <p class="number">3</p>
+                </div>
+                <h3>Работайте зарабатывайте
+                </h3>
+                <div class="command_text">Вы часть дружной команды. Сделайте свою жизнь стабильной с UberClean.</div>
+            </div>
+        </div>
+    </div>
+    <div class="questionnaire">
+        <h2>Aнкета</h2>
+        <img class="img_questionnaire" src="svg/questionnaire.svg" alt="questionnaire">
+    </div>
+    <form class="form_questionnaire">
+        <div class="questionnaires">
+            <div class="questionnaire_img">
+                <img src="./svg/hr.svg" alt="hr">
+            </div>
+            <div class="form_content">
+                <div class="form_group form_1">
+                    <div class="form_title">Ф.И.О.</div>
+                    <input class="input_1" type="text">
+                </div>
+                <div class="form_group form_2">
+                    <div class="form_title">Дата рождения</div>
+                    <input class="input_2" type="text" placeholder="22.03.1975">
+                </div>
+                <div class="form_group form_3">
+                    <div class="form_title">Телефон</div>
+                    <input class="input_3" type="tel" placeholder="+ 7">
+                </div>
+                <div class="form_group form_4">
+                    <div class="form_title">Гражданство</div>
+                    <input class="input_4" type="text" placeholder="Выберите из списка">
+                    <div class="form_img">
+                        <img class="polygon" src="svg/polygon.svg" alt="polygon">
+                    </div>
+                </div>
+                <div class="form_group">
+                    <a class="popup_btn" href="#resultOn">
+                        <p class="btn_text text_1"> Записаться на собеседование</p>
+                    </a>
+                </div>
+            </div>
+    </form>
+    </div>
+    <div class="questions">
+        <h2>Отвечаем на вопросы</h2>
+        <div class="question">
+            <nav>
+                <ul>
+                    <li class="question_content content_1">На первую уборку я поеду одна?</li>
+                    <p class="question_text question_1">Нет. На первый заказ вы едите с опытным клинером, вашим наставником.
+                    </p>
+                    <li class="question_content content_2">Мне оплатят стажировку?</li>
+                    <p class="question_text question_2">Да, стажировка оплачивается. Ведь вы едите на полноценный заказ.
+                    </p>
+                    <li class="question_content content_3">Что мне нужно делать на уборке?</li>
+                    <p class="question_text question_3">Это все расскажут на собеседовании. Потом все повторят на уборке на практике. И выдадим очень подробную инструкцию.</p>
+                    <li class="question_content content_4">Какой у меня будет график работы?</li>
+                    <p class="question_text question_4">У нас большие и гибкие возможности. Поэтому вы можете составить свой график работы. Указать время в которое принимаете заказы. Самые популярные графики в нашей компании 5/2 6/1 2/2</p>
+                    <li class="question_content content_5">Что взять с собой на первую уборку?</li>
+                    <p class="question_text question_5">Весь инвентарь будет у вашего наставника. Вам нужно только взять сменную одежду для комфортной работы. После стажировки вам предоставят форму.</p>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <div class="down">
+        <button class="btn btn_1">
+            <a href="#openModal"><p class="btn_text">Записаться</p></a>
+        </button>
+    </div>
+</body>
+
+</html>
